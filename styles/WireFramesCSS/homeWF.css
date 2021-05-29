@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    align-content: center;
+    text-align: center;
+  }
+header{
+  text-align: left;
+}
+p{
+    line-height: 3px;
+}
+h1, h2{
+    font-weight: 400; 
+}
+img{
+  border-radius: 25px;
+}
+/* NAV Buttons*/
+a:link, a:visited {
+    background-color:blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  a:hover, a:active {
+    background-color: royalblue;
+  }
+  /*END NAV Buttons*/
+  hr{
+    width: 300px;
+  }
+
+  button{
+    background-color:wheat;
+    color: black;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    border-width: 5px;
+    border-color: black;
+    display: inline-block;
+  }
+  
+  button:hover, button:active {
+    background-color: rgb(218, 143, 32);
+  }

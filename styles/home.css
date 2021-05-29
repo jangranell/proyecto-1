@@ -1,0 +1,118 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: lightgray;
+  background-image: url(../imag/website-background-1.jpg);
+  background-color: #cccccc;
+}
+header{
+  text-align: left;
+}
+footer {
+    bottom:0;
+    text-align: left;
+    margin-left:-1%;
+    padding: 0.4%;
+    padding-left:1% ;
+    width:100%;
+    font-style: italic;
+    color: black;
+    height:8%;   
+    background-color: #cccccc;
+ }
+p{
+    line-height: 3px;
+}
+h1, h2{
+    font-weight: 600; 
+}
+img{
+  border-radius: 25px;
+}
+/* NAV*/
+nav{
+  background-color:#0a00cf;
+  height: 12%;
+  margin-left: -1%;
+  padding: 0.2;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.fotoNav{
+  width: 180px;
+  height: 68px;
+  float: right;
+  margin-right: 1%;
+}
+
+a.navButton:link, a.navButton:visited {
+    background-color:rgb(212, 212, 212);
+    color: #0a00cf;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+  }
+  
+ 
+  /*END NAV Buttons*/
+  .bckgrndimg{
+    border-radius: 0%;
+    margin-left:-1.1%;
+    margin-top: -0.1%;
+    width: 100%;
+    height: 500px;
+  }
+
+  hr{
+    width: 500px;
+    height: 2px;
+    color: darkgrey;
+    border-color: black;
+    border-width: 3px;
+  }
+
+.nmbr{
+  text-align: right;
+   font-size: 40px;
+} 
+table{
+  align-items: center;
+}
+.INSCRIBIRSE{
+  font-size:16px;
+  margin: 2px;
+  background-color:#0a00cf;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  border-width: 2px;
+  font-weight: bold;
+  border-color: black;
+  width: 150px;
+  border-radius: 10px;
+  
+}
+.INSCRIBIRSE:hover{
+  background-color: royalblue;
+  color: white; 
+}
+.INSCRIBIRSE:link, .INSCRIBIRSE:visited {
+  background-color:#0a00cf;
+  color:#cccccc;
+  padding: 9px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+table{
+  text-align: center
+}
